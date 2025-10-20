@@ -258,7 +258,7 @@ fluxion_startup() {
   sleep 0.1
   local -r versionInfo="${CSRed}FLUXION $FLUXIONVersion$CClr"
   local -r revisionInfo="(rev. $CSBlu$FLUXIONRevision$CClr)"
-  local -r credits="by$CCyn Douglas Lockshield$CClr"
+  local -r credits="by$CCyn Coronel Stifler $CClr"
   format_center_literals "$versionInfo $revisionInfo $credits"
   echo -e "$FormatCenterLiterals"
 
