@@ -715,7 +715,7 @@ fluxion_header() {
   format_apply_autosize "[%*s]\n"
   local verticalBorder=$FormatApplyAutosize
 
-  format_apply_autosize "[%*s${CSRed}FLUXION $FLUXIONVersion${CSWht}.${CSBlu}$FLUXIONRevision$CSRed    <$CIRed L${CIYel}ockshield$CIRed I${CIYel}s$CIRed V${CIYel}ersion$CClr$CSYel >%*s$CSBlu]\n"
+  format_apply_autosize "[%*s${CSRed}FLUXION $FLUXIONVersion${CSWht}.${CSBlu}$FLUXIONRevision$CSRed    <$CIRed S${CIYel}tifler$CIRed I${CIYel}s$CIRed V${CIYel}ersion$CClr$CSYel >%*s$CSBlu]\n"
   local headerTextFormat="$FormatApplyAutosize"
 
   fluxion_conditional_clear
